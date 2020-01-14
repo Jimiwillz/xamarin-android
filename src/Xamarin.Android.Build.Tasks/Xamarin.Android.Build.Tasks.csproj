@@ -49,7 +49,7 @@
     <PackageReference Include="NuGet.ProjectModel" Version="4.6.0" />
     <PackageReference Include="NuGet.Protocol" Version="4.6.0" />
     <PackageReference Include="NuGet.Versioning" Version="4.6.0" />
-    <PackageReference Include="System.CodeDom" Version="4.6.0" />
+    <PackageReference Include="System.CodeDom" Version="4.7.0" />
     <PackageReference Include="System.Collections.Immutable" Version="1.5.0" />
     <PackageReference Include="System.Reflection.Metadata" Version="1.6.0" />
     <PackageReference Include="System.Runtime" Version="4.3.0" />
