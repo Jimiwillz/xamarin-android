@@ -18,6 +18,7 @@ using Xamarin.ProjectTools;
 
 namespace Xamarin.Android.Build.Tests
 {
+	[Category ("Node-1")]
 	[Parallelizable (ParallelScope.Children)]
 	public partial class BuildTest : BaseTest
 	{
