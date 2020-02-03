@@ -74,6 +74,30 @@
             "problemMatcher": [
                 "$msCompile"
             ]
+        },
+        {
+          "label": "Build api-xml-adjuster",
+          "type": "shell",
+          "command": "msbuild build-tools/api-xml-adjuster/api-xml-adjuster.csproj /restore /t:Build",
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          },
+          "problemMatcher": [
+              "$msCompile"
+          ]
+        },
+        {
+          "label": "Build api-merge",
+          "type": "shell",
+          "command": "msbuild build-tools/api-merge/api-merge.csproj /restore /t:Build",
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          },
+          "problemMatcher": [
+              "$msCompile"
+          ]
         }
     ]
 }

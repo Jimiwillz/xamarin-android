@@ -1528,4 +1528,9 @@
   <attr api-since="29" path="/api/package[@name='java.lang']/class[@name='StringBuilder']" name="extends-generic-aware">java.lang.AbstractStringBuilder</attr>
   <!-- We don't need to remove any method from Java.Lang.AbstractStringBuilder because they are all virtual methods -->
 
+  <remove-node path="/api/package[@name='android.text']/interface[@name='InputType']" />
+  <add-node path="/api/package[@name='android.text']">
+      <interface abstract="true" deprecated="not deprecated" final="false" name="InputType" static="false" visibility="public" jni-signature="Landroid/text/InputType;" />
+  </add-node>
+
 </metadata>

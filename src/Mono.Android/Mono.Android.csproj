@@ -180,7 +180,6 @@
     <Compile Include="Android.Media\AudioRecord.cs" />
     <Compile Include="Android.Media\AudioTrack.cs" />
     <Compile Include="Android.Media\MediaMetadataRetriever.cs" />
-    <Compile Include="Android.Media\MediaPlayer.cs" />
     <Compile Include="Android.Media\MediaRouter.cs" />
     <Compile Include="Android.Media\ToneGenerator.cs" />
     <Compile Include="Android.Net\ConnectivityManager.cs" />
@@ -242,6 +241,7 @@
     <Compile Include="Android.Telephony.Mbms\IGroupCallCallback.cs" />
     <Compile Include="Android.Test\MoreAsserts.cs" />
     <Compile Include="Android.Text\ClipboardManager.cs" />
+    <Compile Include="Android.Text\InputType.cs" />
     <Compile Include="Android.Text\ITextWatcher.cs" />
     <Compile Include="Android.Text.Format\DateUtils.cs" />
     <Compile Include="Android.Util\Base64InputStream.cs" />
